@@ -1,7 +1,10 @@
-const { Fragment } = require("react");
+import NavBar from "./NavBar/NavBar";
+import { Fragment } from "react";
 
 const Header = () => {
-  return <Fragment></Fragment>;
+  return (<Fragment>
+    <NavBar/>
+  </Fragment>);
 };
 
 export default Header;
