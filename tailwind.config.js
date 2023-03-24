@@ -13,6 +13,10 @@ module.exports = {
         neutralGrayishViolet: "hsl(257, 7%, 63%)",
         neutralGrayishDarkBlue: "hsl(255, 11%, 22%)",
         neutralDarkViolet: "hsl(260, 8%, 14%)"
+      },
+      backgroundImage: {
+        heroDesktopInputPattern: "url('/src/Assets/images/bg-shorten-desktop.svg')",
+        heroMobileInputPattern: "url('/src/Assets/images/bg-shorten-desktop.svg')",
       }
     },
   },

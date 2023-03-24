@@ -11,7 +11,7 @@ function NavBar() {
   };
   return (
     <nav
-      className={`flex justify-between md:justify-start items-center ${styles.mobileScreen} ${styles.desktopScreen}`}
+      className={`bg-white flex justify-between md:justify-start items-center ${styles.mobileScreen} ${styles.desktopScreen}`}
     >
       <a href="#" className=" md:mr-[4.5rem]">
         <img
