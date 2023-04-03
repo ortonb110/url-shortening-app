@@ -20,13 +20,17 @@ const Hero = () => {
         </div>
         <img src={bgDesktop} alt="" />
       </div>
-      <form className="bg-heroMobileInputPattern lg:bg-heroDesktopInputPattern bg-no-repeat bg-cover h-[16.8rem] bg-primaryDarkViolet xl:w-[111.1rem] rounded-[1rem]  flex items-center justify-center absolute translate-y-[6.5rem] bottom-[0px] left-[50%] translate-x-[-50%] ">
+      <form className="bg-heroMobileInputPattern lg:bg-heroDesktopInputPattern bg-no-repeat bg-cover flex flex-col gap-[3.8rem] md:gap-0 items-center p-[2.4rem] md:p-0  md:justify-center md:flex-row md:h-[16.8rem] bg-primaryDarkViolet w-[32.7rem] md:w-[80rem] xl:w-[111.1rem] rounded-[1rem] absolute translate-y-[11rem] md:translate-y-[6.5rem] bottom-[0px] left-[50%] translate-x-[-50%] ">
         <input
           type="text"
           placeholder="Shorten a link here..."
-          className="w-[76.9rem] px-[3.2rem] py-[1.4rem] rounded-[1rem] mr-[2.4rem]"
+          className="w-[27.9rem] md:w-[40rem] xl:w-[76.9rem] px-[3.2rem] py-[1.4rem] rounded-[1rem] md:mr-[2.4rem] mx-auto md:mx-0"
         />
-        <Button classes={"!rounded-[1rem] px-[4.1rem] !py-[1.4rem] font-bold"}>
+        <Button
+          classes={
+            "!rounded-[1rem] px-[4.1rem] !py-[1.4rem] font-bold w-full md:w-[18.8rem]"
+          }
+        >
           shorten it!
         </Button>
       </form>
